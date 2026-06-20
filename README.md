@@ -1,6 +1,6 @@
 # 本地 AI 一键启动脚本
 
-双击 `启动AI.bat` 即可启动本地大模型 + Open WebUI 界面。
+双击 `start.bat` 即可启动本地大模型 + Open WebUI 界面。
 
 ## 使用前提
 
@@ -17,13 +17,13 @@ AI\
 │   └── llama-server.exe
 ├── models\
 │   └── 你的模型.gguf
-└── 启动AI.bat
+└── start.bat
 ```
 
 ## 使用方法
 
 1. 按上面的目录结构放好文件
-2. 双击 `启动AI.bat`
+2. 双击 `start.bat`
 3. 选择要加载的模型编号
 4. 等待启动完成后，浏览器打开 `http://localhost:8080`
 
